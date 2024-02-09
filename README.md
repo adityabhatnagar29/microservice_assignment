@@ -86,7 +86,10 @@ ACCOUNT-SERVICE: http://localhost:8082
   # 5.) Delete Account 
 
         http://localhost:8083/account/deleteCust/{id}
-      
+
+
+
+# Confi-Server Properties : https://github.com/adityabhatnagar29/microservice-assignment-configuration
 
        
 
