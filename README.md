@@ -47,6 +47,22 @@ ACCOUNT:SERVICE: http://localhost:8082
 
       http://localhost:8083/customer/deleteCust/{id}
 
+ # ACCOUNT-SERVICE :
+
+  # 1.) Add Account 
+
+    http://localhost:8083/account/createAccount
+
+     JSON Request Body
+
+      {
+    "accNo":1,
+    "accType": "save",
+    "balance":300
+      }
+
+      
+
 
       
 
