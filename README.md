@@ -5,7 +5,7 @@ API-GATEWAY: http://localhost:8083
 
 CUSTOMER-SERVICE: http://localhost:8081
 
-ACCOUNT:SERVICE: http://localhost:8082
+ACCOUNT-SERVICE: http://localhost:8082
 
 
 
@@ -22,7 +22,7 @@ ACCOUNT:SERVICE: http://localhost:8082
     "customerId":1,
     "name":"Adi",
     "address":"Punjab",
-    "phoneNumber":2344445,
+    "phoneNumber": 9209878097,
     "gender":"M"
       }
 
