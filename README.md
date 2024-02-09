@@ -7,7 +7,10 @@ CUSTOMER-SERVICE: http://localhost:8081
 
 ACCOUNT:SERVICE: http://localhost:8082
 
+
+
 # CUSTOMER-SERVICE :
+
 
 # 1.)  Add Customer
 
@@ -47,7 +50,10 @@ ACCOUNT:SERVICE: http://localhost:8082
 
       http://localhost:8083/customer/deleteCust/{id}
 
+
+
  # ACCOUNT-SERVICE :
+
 
   # 1.) Add Account 
 
@@ -60,6 +66,29 @@ ACCOUNT:SERVICE: http://localhost:8082
     "accType": "save",
     "balance":300
       }
+
+  # 2.) Get Account Details 
+
+     http://localhost:8083/account/getDetails/{accNo}
+
+  # 3.) Add Balance 
+
+    http://localhost:8083/account/addMoney/{accNo}
+
+     Request Parameter : Key = amount , Value = 400
+
+ #  4.) Withdraw Balance 
+
+       http://localhost:8083/account/debitMoney/{accNo}
+
+          Request Parameter : Key = amount , Value = 400
+
+  # 5.) Delete Account 
+
+        http://localhost:8083/account/deleteCust/{id}
+      
+
+       
 
       
 
