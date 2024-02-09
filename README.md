@@ -1,5 +1,5 @@
 # PORTS :
-EUREKA-SERVER: http://localhost:8080
+EUREKA-SERVER: http://localhost:8761
 
 API-GATEWAY: http://localhost:8083
 
